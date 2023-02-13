@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: auto;
+    padding:0;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo img{
+    width: 50%;
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    color: yellow;
+    font-size: 30px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(255, 230, 0);
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(2, 162, 23);
+}
+
+.rightNav{
+    width: 50%;
+    text-align: center;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 10px;
+    font-size: 17px;
+    border: 2px rgba(255, 0, 0, 0.735);
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../IMG/01.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+} 
+
+.text-big {
+    text-align: center;
+    margin-top: 30px;
+}
+  
+  .text-small {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+
+ .buttons {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 230, 0);
+    font-family: 'Righteous', cursive;
+    max-width:auto
+    margin auto
+    height auto
+
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    position: relative;
+    top: 10px;
+     
+}
+
+.text-big{
+    font-size: 35px;
+
+}
+.text-small{
+    font-size: 20px;
+    
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 5px;
+    border: 2px solid rgb(255, 255, 0);
+    border-radius: 8px;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    background: none;
+    color: rgb(255, 247, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.btn-dark{
+    color: yellow;
+    border: 2px solid rgb(255, 234, 0);
+}
+
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    color: yellow;
+    background: rgba(0, 0, 0, 0.7) url('../IMG/AA.jpg');
+    background-blend-mode: darken;
+    background-size: flex;
+    
+}
+
+
+
+
+
+.section-left {
+    flex-direction:row-reverse;
+    background: rgba(0, 0, 0, 0.7) url('../IMG/BB.jpg');
+}
+
+.paras{
+    padding: 0px 66px;
+}
+
+.sectionSubTag{
+    font-family: 'Marcellus', serif;
+    font-size: 25px
+}
+
+.contact{
+    background: rgba(0, 0, 0, 0.7) url('../IMG/SS.jpg');
+    height: 90vh;
+    background-size: contain;
+    overflow: hidden;
+}
+.text-center{
+    text-align: center;
+    color: rgb(234, 255, 0);
+    font-size: 50px;
+    padding: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.7) url('../IMG/horsehead-nebula-constellation-astronomy-nasa-hubble-space-3840x2160-6040.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.swiper{
+    width: 80% ;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:white 
+}
+.swiper .swiper-pagination-bullet-active{
+    background: yellow;
+}
+
+.loveButton
+{
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: pink;
+    border-radius: 20%;
+    background-color: #c9f9ff;
+    color: rgb(255, 113, 222);
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+html,body{
+  
+        overflow-x: hidden;
+}
